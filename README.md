@@ -2,5 +2,5 @@
 
 # Bienvenido a mi página
 
-- Página de una optica con posibilidad de crecimiento
+- Página de una Constructora con posibilidad de crecimiento
 
