@@ -108,6 +108,7 @@ body .grid-container>* {
   display: flex;
   font-family: "Lexend deca";
   justify-content: center;
+  z-index: 1000; 
 }
 
 .navbar ul {
