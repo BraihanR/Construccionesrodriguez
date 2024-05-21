@@ -186,31 +186,31 @@ body .grid-container>* {
 
 .btn-group-overlay {
   position: absolute;
-  bottom: 10px; /* Posiciona los botones 10px desde el fondo */
-  left: 10px; /* Posiciona los botones 10px desde el lado izquierdo */
-  z-index: 1000; /* Asegura que los botones estén sobre las imágenes */
+  bottom: 10px; 
+  left: 10px; 
+  z-index: 1000; 
   margin: 50px;
 }
 
 .carousel-item {
-  position: relative; /* Asegura que los botones se mantengan en su lugar */
+  position: relative;
 }
 
 .btn-group-overlay .btn {
-  margin-right: 5px; /* Ajusta la separación entre los botones */
+  margin-right: 5px; 
 }
 
 .phrase {
   position: absolute;
   top: 70%;
   left: 60px;
-  z-index: 1001; /* Asegura que el texto esté sobre los botones */
+  z-index: 1001;
   color: #fff; 
   
 }
 
 .phrase p {
-  margin-bottom: 5px; /* Espacio entre las dos líneas de texto */
+  margin-bottom: 5px; 
 }
 
 /** Ubicación **/
@@ -421,7 +421,7 @@ body .grid-container>* {
 .containercards {
   
   grid-area: sidebar;
-
+  padding: 30px;
 
 }
 
@@ -458,6 +458,8 @@ footer {
     height: 300px;
   }
 }
+
+
 
 @media screen and (min-width: 506px) {
 
@@ -497,6 +499,12 @@ footer {
     margin: 10px;
     padding: 2px;
   }
+}
+
+.btn-group-overlay {
+  
+  bottom: -35px; 
+  
 }
 
 @media screen and (min-width: 700px) {
@@ -619,6 +627,8 @@ footer {
   }
 }
 
+
+
 @media screen and (min-width: 1024px) {
   .grid-container {
     grid-template: "header  header header" 100px "navbar  navbar  navbar" auto "main  sidebar footer" auto 200px auto 200px;
@@ -628,6 +638,7 @@ footer {
   
     grid-area: sidebar;
     display: flex;
+    padding: 50px;
   
   }
 
